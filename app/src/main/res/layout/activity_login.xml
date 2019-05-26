@@ -44,11 +44,11 @@
         android:layout_marginTop="8dp"
         android:onClick="login"
         android:text="登入"
-        app:layout_constraintStart_toStartOf="@+id/editText2"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintStart_toStartOf="@+id/passwd"
+        app:layout_constraintTop_toBottomOf="@+id/passwd" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/passwd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -66,4 +66,12 @@
         android:text="取消"
         app:layout_constraintStart_toEndOf="@+id/button"
         app:layout_constraintTop_toTopOf="@+id/button" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="3159dp"
+        tools:layout_editor_absoluteY="7621dp" />
 </android.support.constraint.ConstraintLayout>
